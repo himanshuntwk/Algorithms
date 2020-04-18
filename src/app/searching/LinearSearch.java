@@ -14,7 +14,7 @@ public class LinearSearch {
    */
   public static void main(String[] args) throws Exception {
     int[] inputArray = { 12, 43, 5, 32, 34, 56, 2, 3, 6, 19 };
-    int searchItem = 349;
+    int searchItem = 34;
     LinearSearch linearSearch = new LinearSearch();
     linearSearch.linearSearch(inputArray, searchItem);
     linearSearch.resultAndStats();
@@ -38,6 +38,7 @@ public class LinearSearch {
 
   /**
    * Method to provide result and stats about algorithm.
+   * Approximate time observed: 1300 ns
    */
   public void resultAndStats() {
     System.out.println("=====================================");
